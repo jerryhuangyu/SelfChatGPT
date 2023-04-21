@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>codeChat | Your Coding AI</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="app">
+      <!-- ans history -->
+      <div id="chat_container"></div>
+
+      <!-- form for send question -->
+      <form action="">
+        <textarea name="prompt" cols="1" rows="1" placeholder="Ask codeChat..."></textarea>
+
+        <div id="button_box">
+          <button type="submit">
+            <img src="assets/send.svg" alt="send">
+          </button>
+        </div>
+
+      </form>
+
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
